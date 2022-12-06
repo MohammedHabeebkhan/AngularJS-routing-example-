@@ -1,0 +1,11 @@
+  /// <reference path="script.js" />
+
+app.filter("numFilter", function(){
+return function(x){
+    if(x !== null && x !== undefined){
+   var num = parseInt(x).toLocaleString();
+   return num
+    }
+}
+
+})
